@@ -26,6 +26,7 @@ class Person {
     constructor(name = 'Ronnie', age, height, weight, mood = 0, hamsters = [], bankAccount = 0){
         this.name = name;
         this.age = age;
+        this.height = height;
         this.weight = weight;
         this.mood = mood;
         this.hamsters = hamsters;
@@ -71,4 +72,18 @@ class Person {
     }
 
 } //console.log(Person);
+
+const Timmy = new Person('Timmy', 5,);
+Timmy.eatXTimes(5);
+Timmy.exercise(5);
+Timmy.ageUp(9);
+Timmy.buyHamster(Gus);
+Timmy.ageUp(15);
+Timmy.eatXTimes(2);
+Timmy.exercise(2);
+
+const Gus = new Hamster('Timmy');
+
+// ===============================================================================
+
 
